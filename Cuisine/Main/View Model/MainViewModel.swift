@@ -34,6 +34,8 @@ class MainViewModel: ObservableObject {
     
     // MARK: Functions
     
+    
+    
     /// Asynchronously downloads meals from the meal service API
     @MainActor
     func getMeals() async {
