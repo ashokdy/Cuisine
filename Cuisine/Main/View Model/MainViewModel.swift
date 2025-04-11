@@ -12,6 +12,7 @@ import SwiftUI
 /// Contains all objects used for downloading and setting meals and meal details
 class MainViewModel: ObservableObject {
     
+    
     // MARK: Services
     
     private let mealService = MealService()
